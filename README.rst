@@ -19,7 +19,7 @@ To use this template
 ::
 
     $ pip install cookiecutter
-    $ cookiecutter https://github.com/sloria/cookiecutter-docopt.git
+    $ cookiecutter https://github.com/carlesm/cookiecutter-docopt.git
 
 You will be prompted for basic info (your name, script name, etc.) which will be used in the template.
 
@@ -33,18 +33,13 @@ If you prefer not to use docopt for arguments parsing, simply remove the line ``
 Next steps
 ----------
 * Create the Github repo for your project
-* Add the repo `Travis-CI`_.
-* Release your package to the PyPI. Here's a release checklist: https://gist.github.com/sloria/6277657
-* Add the repo to `ReadTheDocs`_.
 
 
-.. _Travis-CI: http://travis-ci.org/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
-.. _ReadTheDocs: https://readthedocs.org/
 
 
 License
 -------
 
-`MIT Licensed <http://sloria.mit-license.org>`_.
+`MIT Licensed <http://carlesm.mit-license.org>`_.
